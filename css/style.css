@@ -186,6 +186,7 @@ transition: 0.5s opacity;
 
 .page-header__item img {
 		width: 200px;
+		padding-bottom: 50px;
 	}
  	
 .navigation-list {

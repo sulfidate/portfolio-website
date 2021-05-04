@@ -104,8 +104,11 @@ p {
 	color: var(--text-dark-gray);
 }
 
-strong {
-	font-weight: var(--font-weight-thick);
+.strong {
+	font-weight: var(--font-weight-regular);
+	color: var(--primary-oracle);
+	font-size: 105%;
+	padding: 0px 1.5px;
 }
 
 a {
@@ -149,7 +152,8 @@ font-family: inherit;
 background-color: var(--button-background-oracle);
 color: var(--button-text-white);
 text-decoration: none;
-padding: 10px;
+padding: 7px;
+margin: 30px 0 40px 0;
 border-radius: 3px;
 border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 transition: 0.5s opacity;
@@ -243,7 +247,7 @@ background-color: var(--background-porcelain);
 	height: 100%;
 	max-height: 300px;
 	float: left;
-	padding: 10px;
+	padding: 0;
 	margin-right: 40px;
 }
 

@@ -1,83 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Marcus Krause | Contact</title>
-		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/style.production.css">
-	</head>
-	<body>
-		<div class="page">
-			<header class="page-header">
-				<a href="index.html" class="page-header__item">
-					<img src="./img/marcus-krause-logo.svg" alt="Personal logo of Marcus Krause, a text logo that consists of my name in Helvetica Oblique">
-				</a>
-				<nav class="page-header__item">
-					<ul role="menubar" class="navigation-list">
-						<li role="presentation">
-							<a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-						</li>
-						<li role="presentation">
-							<a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
-						</li>
-						<li role="presentation">
-							<a href="work.html" role="menuitem" class="navigation-list__item">My work</a>
-						</li>
-						<li role="presentation">
-							<a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-			<main class="page-content contact-content">
-				<div class="message-data">
-					<form method="post" class="message-data" id="contact-form">
-						<h1>CONTACT</h1><br>
-						<h2>Send me a message...</h2>
-						<label class="standard-label" for="contact-email">your email:* </label>
-						<input type="email" id="contact-email" required/><br>
-						<label class="standard-label" for="contact-telephon">phone (optional): </label>
-						<input id="contact-telephon" type="tel"/><br>
-						<label class="standard-label" for="contact-message">your message:* </label>
-						<textarea id="contact-message" maxlength="240" cols="18" rows="2" required></textarea>
-						<p>*required fields</p><br>
-						<input type="submit" value="send" class="button__secondary"/>
-					</form><br>
-				</div>
-				<h2>contact - information:</h2>
-				<div class="contact-data">
-					<strong>Marcus Krause</strong><br>
-					Gottorpstr. 69<br>
-					22605 Hamburg<br>
-					Germany<br>
-					<br>
-					phone: <a href="tel:+491612377696">tel. +49(0)1622377696</a><br>
-					skype: <a href="skype:sulfidate">sulfidate</a><br>
-					email: <a href="mailto:marcus@krauseshome.de">marcus@krauseshome.de</a><br>
-					<br>
-					<a href="mailto:marcus@krauseshome.de" class="button__secondary">... send me a an email</a>
-				</div>
-			</main>
-			<footer class="page-footer">
-				<p>Find me on</p>
-				<div class="social-media">
-					<a href="http://www.github.com/sulfidate" target="_blank">
-						<img src="./img/github_icon.svg" alt="Github"/>
-					</a>
-					<a href="http://www.twitter.com/macbub" target="_blank">
-						<img src="./img/twitter_icon.svg" alt="Twitter"/>
-					</a>
-					<a href="https://www.linkedin.com/in/marcus-krause-25373530/" target="_blank">
-						<img src="./img/linkedin_icon.svg" alt="LinkedIn"/>
-					</a>
-				</div>
-			</footer>
-		</div>
-		<script src="js/script.js"></script>
-		<script src="js/tota11y.min.js"></script>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcus Krause | Contact</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-header">
+        <a href="index.html" class="page-header__item">
+          <img
+            src="./img/marcus-krause-logo.svg"
+            alt="Personal logo of Marcus Krause, a text logo that consists of my name in Helvetica Oblique"
+          />
+        </a>
+        <nav class="page-header__item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a href="index.html" role="menuitem" class="navigation-list__item"
+                >Home</a
+              >
+            </li>
+            <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list__item"
+                >About me</a
+              >
+            </li>
+            <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list__item"
+                >My work</a
+              >
+            </li>
+            <li role="presentation">
+              <a
+                href="contact.html"
+                role="menuitem"
+                class="navigation-list__item navigation-list__item--active"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="page-content contact-content">
+        <div class="message-data">
+          <form method="post" class="message-data" id="contact-form">
+            <h1>CONTACT</h1>
+            <br />
+            <h2>Send me a message...</h2>
+            <label class="standard-label" for="contact-email"
+              >your email:*
+            </label>
+            <input type="email" id="contact-email" required /><br />
+            <label class="standard-label" for="contact-telephon"
+              >phone (optional):
+            </label>
+            <input id="contact-telephon" type="tel" /><br />
+            <label class="standard-label" for="contact-message"
+              >your message:*
+            </label>
+            <textarea
+              id="contact-message"
+              maxlength="240"
+              cols="18"
+              rows="2"
+              required
+            ></textarea>
+            <p>*required fields</p>
+            <br />
+            <input type="submit" value="send" class="button__secondary" />
+          </form>
+          <br />
+        </div>
+        <h2>contact - information:</h2>
+        <div class="contact-data">
+          <strong>Marcus Krause</strong><br />
+          Gottorpstr. 69<br />
+          22605 Hamburg<br />
+          Germany<br />
+          <br />
+          phone: <a href="tel:+491612377696">tel. +49(0)1622377696</a><br />
+          skype: <a href="skype:sulfidate">sulfidate</a><br />
+          email: <a href="mailto:marcus@krauseshome.de">marcus@krauseshome.de</a
+          ><br />
+          <br />
+          <a href="mailto:marcus@krauseshome.de" class="button__secondary"
+            >... send me a an email</a
+          >
+        </div>
+      </main>
+      <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+          <a href="http://www.github.com/sulfidate" target="_blank">
+            <img src="./img/github_icon.svg" alt="Github" />
+          </a>
+          <a href="http://www.twitter.com/macbub" target="_blank">
+            <img src="./img/twitter_icon.svg" alt="Twitter" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marcus-krause-25373530/"
+            target="_blank"
+          >
+            <img src="./img/linkedin_icon.svg" alt="LinkedIn" />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>

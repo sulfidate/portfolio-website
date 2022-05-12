@@ -280,7 +280,12 @@ button:focus,
   text-align: center;
 }
 
-.work-content .tec a {
+.work-content .tec a:link {
+  text-decoration: none;
+  pointer-events: none;
+  padding-left: 1%;
+}
+.work-content .tec a:visited {
   text-decoration: none;
   pointer-events: none;
   padding-left: 1%;

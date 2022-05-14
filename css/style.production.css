@@ -153,19 +153,19 @@ button:focus,
   background-color: #357b70;
   color: #ffffff;
   text-decoration: none;
-  padding: 7px;
+  padding: 1px 5px;
   margin: 30px 0 40px 0;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.5s opacity;
   -o-transition: 0.5s opacity;
-  transition: 0.5s opacity;
+  transition: 0.3s opacity;
 }
 
 .button__secondary:hover,
 .button__secondary:focus {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .page {
@@ -283,13 +283,18 @@ button:focus,
 .work-content .tec a:link {
   text-decoration: none;
   pointer-events: none;
-  padding-left: 1%;
+  padding-left: 2%;
 }
 .work-content .tec a:visited {
   text-decoration: none;
   pointer-events: none;
-  padding-left: 1%;
+  padding-left: 2%;
 }
+
+.work-content h2 {
+  color: #367B71;
+}
+
 
 .contact-content {
   text-align: center;

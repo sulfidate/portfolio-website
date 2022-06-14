@@ -162,6 +162,11 @@ button:focus,
   transition: 0.3s opacity;
 }
 
+.button-grid a {
+  margin-left: 5%;
+  padding: 1px 15px;
+}
+
 .button__secondary:hover,
 .button__secondary:focus {
   cursor: pointer;
@@ -280,6 +285,40 @@ button:focus,
   text-align: center;
 }
 
+.work-content .grid__item {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.work-content .grid__item .img {
+  width: 100%;
+  height: auto;
+  border: #357b70 solid 2px;
+  border-radius: 5px;
+}
+
+.work-content .button-grid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.work-content .tec {
+  margin-bottom: 15px;
+}
+
+.work-content .tec img {
+  width: 6%;
+  height: auto;
+}
+
+.work-content .api img {
+  width: 6%;
+  height: auto;
+}
+
 .work-content .tec a:link {
   text-decoration: none;
   pointer-events: none;
@@ -292,9 +331,8 @@ button:focus,
 }
 
 .work-content h2 {
-  color: #367B71;
+  color: #367b71;
 }
-
 
 .contact-content {
   text-align: center;
